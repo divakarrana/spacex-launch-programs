@@ -1,0 +1,41 @@
+//MEDIA QUERY MANAGER
+/*
+0-700px = phone //NORMAL STYLES APPLY HERE
+700-1024 = tablet portrait
+1024-1440 = Desktop
+1440+ = big desktop
+
+$breakpoint parameter choices ::
+- phone
+- tab
+- desktop
+- big-desktop
+
+*/
+@mixin respond($breakpoint) {
+  //1440px
+  @if $breakpoint == big-desktop {
+    @media only screen and (min-width: 90em) {
+      @content;
+    }
+  }
+
+  //1024px
+  @if $breakpoint == desktop {
+    @media only screen and (min-width: 64em) {
+      @content;
+    }
+  }
+  //700px
+  @if $breakpoint == tab {
+    @media only screen and (min-width: 43.74em) {
+      @content;
+    }
+  }
+  //less than 700px
+  @if $breakpoint == phone {
+    @media only screen and (max-width: 43.74em) {
+      @content;
+    }
+  }
+}

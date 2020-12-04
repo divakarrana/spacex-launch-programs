@@ -1,0 +1,24 @@
+//COLORS
+$gray-light: #eee;
+$gray-mid: #bbb;
+$gray-dark: #333;
+$btn-green: #78e08f;
+$btn-highlight: #20bf6b;
+$blue-primary: rgb(0, 0, 175);
+$btn-orange: rgb(230, 157, 0);
+$btn-highlight-or: rgb(230, 84, 0);
+
+//GRID
+$grid-width: 114rem;
+$gutter-vertical: 8rem;
+$gutter-vertical-small: 6rem;
+$gutter-horizontal: 6rem;
+
+//MIXINS
+@mixin clearfix {
+  &::after {
+    content: '';
+    display: table;
+    clear: both;
+  }
+}

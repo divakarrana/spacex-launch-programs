@@ -1,0 +1,39 @@
+.filters {
+  background-color: $gray-light;
+  border-radius: 1rem;
+  max-width: 50rem;
+  margin-top: 2rem;
+
+  @include respond(tab) {
+    max-width: 40rem;
+  }
+
+  @include respond(desktop) {
+    max-width: 30rem;
+  }
+
+  @include respond(big-desktop) {
+    max-width: 30rem;
+  }
+
+  &__label {
+    padding: 1rem;
+    font-size: 1.8rem;
+  }
+
+  &__sub-label {
+    text-align: center;
+    border-bottom: 1px solid #bbb;
+    font-size: 1.2rem;
+
+    p {
+      font-size: 1.5rem;
+    }
+  }
+
+  &__years-container {
+    @include clearfix;
+    display: flex;
+    flex-wrap: wrap;
+  }
+}

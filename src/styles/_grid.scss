@@ -1,0 +1,18 @@
+.col-1-of-2 {
+  width: calc((100% - #{$gutter-horizontal}) / 2);
+  margin: 1rem auto;
+
+  @include respond(phone) {
+    width: 100%;
+  }
+
+  @include respond(desktop) {
+    width: calc((100% - #{$gutter-horizontal}) / 4);
+    margin: 1rem auto;
+  }
+}
+
+.col-1-of-2-btn {
+  width: calc((100% - #{$gutter-horizontal}) / 2);
+  margin: 1rem auto;
+}
