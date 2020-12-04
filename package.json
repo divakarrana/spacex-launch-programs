@@ -1,5 +1,5 @@
 {
-  "name": "react-ssr-boilerplate",
+  "name": "spacex-launch-data",
   "version": "5.1.0",
   "private": true,
   "engines": {
@@ -12,8 +12,8 @@
     "start": "node scripts/startProd.js",
     "lint": "eslint src/**/*.js",
     "format": "prettier --write \"src/**/*.{js,json,css,md}\"",
-    "docker:build": "docker build --rm -t cullenjett/react-ssr-boilerplate .",
-    "docker:start": "docker run --rm -it -p 3000:3000 cullenjett/react-ssr-boilerplate",
+    "docker:build": "docker build --rm -t spacex-launch-docker .",
+    "docker:start": "docker run --rm -it -p 3000:3000 cspacex-launch-docker",
     "docker": "npm run docker:build && npm run docker:start"
   },
   "husky": {
