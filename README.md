@@ -49,9 +49,12 @@ Design Breakpoints :
 ## Let's talk about performance benchmarks and more!
 
 Application is build with best practices to keep the lighthouse scores at par.
-Performance: 96/100
-Accessibility: 97/100
-SEO: 100/100
+
+1. Performance: 96/100
+2. Accessibility: 97/100
+3. SEO: 100/100
+
+![Image of Lighthouse Performance](https://github.com/divakarrana/spacex-launch-programs/blob/master/public/images/SpaceXLighthouse.PNG)
 
 ## Currently deployed on
 
