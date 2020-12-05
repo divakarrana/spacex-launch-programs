@@ -8,7 +8,7 @@ This is an ISOMORPHIC React application which is initially rendered on server-si
 
 ## How to RUN this application
 
-# Prerequisite
+### Prerequisite
 
 Node along with npm should be available in your machine to execute `npm` commands.
 If you do not have node please follow the link and download node here [https://nodejs.org/en/download](https://nodejs.org/en/download)
