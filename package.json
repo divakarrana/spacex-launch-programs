@@ -6,14 +6,14 @@
     "node": ">=10.15"
   },
   "scripts": {
-    "start:dev": "node scripts/start.js",
+    "start": "node scripts/start.js",
     "build": "node scripts/build.js",
     "test": "node scripts/test.js",
-    "start": "node scripts/startProd.js",
+    "start:prod": "node scripts/startProd.js",
     "lint": "eslint src/**/*.js",
     "format": "prettier --write \"src/**/*.{js,json,css,md}\"",
     "docker:build": "docker build --rm -t spacex-launch-docker .",
-    "docker:start": "docker run --rm -it -p 3000:3000 cspacex-launch-docker",
+    "docker:start": "docker run --rm -it -p 3000:3000 spacex-launch-docker",
     "docker": "npm run docker:build && npm run docker:start"
   },
   "husky": {
