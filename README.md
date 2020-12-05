@@ -8,6 +8,11 @@ This is an ISOMORPHIC React application which is initially rendered on server-si
 
 ## How to RUN this application
 
+# Prerequisite
+
+Node along with npm should be available in your machine to execute `npm` commands.
+If you do not have node please follow the link and download node here [https://nodejs.org/en/download](https://nodejs.org/en/download)
+
 Follow below mentioned steps to RUN this application on local environment
 
 1. Clone this repository to you local disk space.
@@ -55,8 +60,6 @@ Application is build with best practices to keep the lighthouse scores at par.
 3. SEO: 100/100
 
 ![Image of Lighthouse Performance](https://github.com/divakarrana/spacex-launch-programs/blob/master/public/images/SpaceXLighthouse.PNG)
-
-## Currently deployed on
 
 ## Future prospect
 
